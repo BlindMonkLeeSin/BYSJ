@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>西溪</title>
+		<link rel="stylesheet" href="css/bass.css" />
+        <link rel="stylesheet" href="css/common/header.css" />
+		<link rel="stylesheet" href="css/common/icon.css" />
+		<link rel="stylesheet" href="css/common/footer.css" />
+		<link rel="stylesheet" href="css/common/login.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jQuery/jquery-3.2.1.js" ></script>
+		<script type="text/javascript" src="js/common/ifLogin.js" ></script>
+		<script type="text/javascript" src="js/common/login.js" ></script>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=icGhZG9f0PkrWOlkverHyrIhwpvz4uFu"></script>
+		<script type="text/javascript" src="js/cityMap.js" ></script>
+		<script type="text/javascript" src="js/indexInit.js" ></script>
+	</head>
+	<body>
+		<header class="headerWhite">
+		  <div class="container bc clearfix ">
+			<span class="logoWhite fl"></span>
+			<div class="fr">
+               <ul class="loginList f0">
+               	<li id="loginBt"><a href="javascript:void(0);">登录</a></li>
+               	<li id="registerBt"><a href="javascript:void(0);">注册</a></li>
+               	<li id="userName" class="pr none">
+               		<a href="javascript:void(0);">用户名</a>
+               		<span class="dib listIcon w15 h15"></span>
+               		<ul class="loginListDetalist f14 pa tc none">
+               			<li><a href="userInfo/myOrder.php">我的订单</a></li>
+               			<li><a href="userInfo/personalData.php">我的资料</a></li>
+               			<li><a href="userInfo/myCt.php">我的收藏</a></li>
+               			<li class="cancel"><a href="javascript:void(0);">退出</a></li>
+               		</ul>
+               	</li>
+               	<li id="openShop"><a href="shopInfo/shopLogin.html">开店</a></li>
+               	<li id="shopName" class="pr none">
+               		<a href="shopInfo/shopLogin.html">商家名</a>
+               		<span class="dib listIcon w15 h15"></span>
+               		<ul class="loginListDetalist f14 pa tc none">
+               			<li><a href="shopInfo/shopInfo.php">店铺信息</a></li>
+               			<li><a href="shopInfo/shopNewOrder.php">我的订单</a></li>
+               			<li><a href="shopInfo/shopProductInfo.php">商品管理</a></li>
+               			<li class="cancel"><a href="javascript: void(0);">退出</a></li>
+               		</ul>
+               	</li>
+               </ul>
+			</div>
+		  </div>
+		</header>
+		<div class="main pl50 pr50 pt100 pb200">
+			<h1 class="f40 tc">好东西 放心购</h1>
+			<div class="tc f0 pt30">
+				<div class="main-adress dib f0 w80 h50 vm bb pr">
+					<span class="main-adress-content dib f20 vm">地址</span>
+					<span class="main-adress-button listIcon dib vm"></span>
+					<div class="cityList pa w600 f14 pl15 pr15 none pr">
+						<h2 class="tc f18">地址列表</h2>
+						<ul class="cityNav clearfix  w">
+							<li><a href="javascript: void(0);">A</a></li>
+							<li><a href="javascript: void(0);">B</a></li>
+							<li><a href="javascript: void(0);">C</a></li>
+							<li><a href="javascript: void(0);">D</a></li>
+							<li><a href="javascript: void(0);">E</a></li>
+							<li><a href="javascript: void(0);">F</a></li>
+							<li><a href="javascript: void(0);">G</a></li>
+							<li><a href="javascript: void(0);">H</a></li>
+							<li><a href="javascript: void(0);">G</a></li>
+							<li><a href="javascript: void(0);">K</a></li>
+							<li><a href="javascript: void(0);">L</a></li>
+							<li><a href="javascript: void(0);">M</a></li>
+							<li><a href="javascript: void(0);">N</a></li>
+							<li><a href="javascript: void(0);">P</a></li>
+							<li><a href="javascript: void(0);">Q</a></li>
+							<li><a href="javascript: void(0);">R</a></li>
+							<li><a href="javascript: void(0);">S</a></li>
+							<li><a href="javascript: void(0);">T</a></li>
+							<li><a href="javascript: void(0);">W</a></li>
+							<li><a href="javascript: void(0);">X</a></li>
+							<li><a href="javascript: void(0);">Y</a></li>
+							<li><a href="javascript: void(0);">Z</a></li>
+						</ul>
+					</div>
+					
+					<div class="main-adress-map pa none" id="main-adress-map">
+					     
+					</div>
+					<span class="horn pa none"></span>
+					<span class="closeIcon pa w15 h15 none"></span>
+				</div>
+				<input class="main-text f20 mr20 vm pl20 bb w300 h50 nb" id="main-text" type="text" placeholder="请输入地址" />
+				<button class="main-button f20 w80 h50 vm nb ">搜索</button>
+				<div class="main-prompt none" id="main-prompt"></div>
+			</div>
+		</div>
+        <footer class="footer h150 tc">
+ 	        <address class="addr pt20 pb10">
+ 		        <span>name</span>
+ 		        <span>40214157</span>
+ 		        <span>班级14101</span>
+ 		        <span>phone</span>
+ 	        </address>
+ 	        <span class="fca">copyright&copy2017-2018</span>
+        </footer>
+        <div class="curtain pa h200 w none">
+        	<div class="curtain-content pf w300 bb pl20 pr20 pt15">
+        		<div class="clearfix">
+        			<span class="logoWhite fl"></span>
+        			<span class="closeIcon w15 h15 dib fr"></span>
+        		</div>
+                <ul class="curtain-content-list f0 tc mb10 h30">
+                	<li>登录</li>
+                	<li>注册</li>
+                </ul>
+        		<div class="login none">
+        			<input class="login-text w h40 pl15 bb f16 mb10" type="text" placeholder="手机号">
+        			<input class="login-pwd w h40 pl15 bb f16 mb10" type="password" placeholder="密码">
+        			<button class="login-button w h40 bb f16 mb10 nb">登录</button>
+        		</div>
+        		<div class="register none">
+        			<input class="register-text w h40 pl15 bb f16 mb5" type="text" placeholder="手机号">
+        			<label class="register-text-prompt none"></label>
+        			<input class="register-pwd w h40 pl15 bb f16 mt5 mb5" type="password" placeholder="密码">
+        			<label class="register-pwd-prompt none"></label>
+        			<button class="register-button w h40 bb f16 mt5 mb5 nb">注册</button>
+        		</div>
+        	</div>
+        </div>
+	</body>
+</html>

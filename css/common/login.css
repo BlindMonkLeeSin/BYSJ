@@ -1,0 +1,26 @@
+.curtain{
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	z-index: 100;
+}
+.curtain-content{
+	background-color: white;
+	top: 30%;
+	left: 45%;
+	margin-left: -100px;
+}
+.curtain-content-list li{
+	font-size: 20px;
+	display: inline-block;
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+}
+.curtain-content-list li.active{
+	background-color: rgba(255,0,0,0.3);
+	color: white;
+}
+.register label{
+	color: red;
+	font-size: 10px;
+}

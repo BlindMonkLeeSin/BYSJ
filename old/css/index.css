@@ -1,0 +1,307 @@
+﻿/*全局*/
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "楷体";
+	//font-size: 14px;
+	list-style: none;
+	text-decoration: none;
+}
+/*头部*/
+.header-sc{
+	padding: 0px 60px;
+	width: auto;
+	height: 48px;
+}
+.header-skin{
+	 //background-color: rgba(0,255,0,0.5);
+}
+.logo-sc{
+	float: left;
+	width: 136px;
+	height: 48px;
+}
+.logo-skin{
+	background-image: url(../image/1.jpg);
+	background-size: 136px 48px;
+}
+.login-sc{
+	float: right;
+}
+.login-sc ul {
+	width: auto;
+	height: 48px;
+	line-height: 48px;
+	font-size: 0px;	
+}
+.login-sc ul li{
+	display: inline-block;
+  	font-size: 18px;
+  	padding: 0 20px;
+}
+.login-skin ul li:hover{
+	color: red;
+}
+/*主要部分*/
+.main-sc{
+	padding: 100px 60px 60px;
+	width: auto;
+	height: auto;
+}
+.main-skin{
+	//background-color: rgba(0,255,0,0.5);
+	background-color: black;
+}
+.main-sc h1{
+	text-align: center;
+	font-size: 50px;
+}
+.main-skin h1{
+	font-weight: normal;
+	color: white;
+}
+span.margin-left{
+	margin-right: 60px;
+}
+.search-sc{
+	width: 600px;
+	margin: 40px auto;
+	font-size: 0px;
+}
+.search-skin{
+	//background-color: red;
+}
+.address-sc{
+	display:inline-block;
+	font-size: 20px;
+    width: 90px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+.address-skin{
+	background-color: white;
+	border-radius: 5px 0 0 5px;
+	
+}
+.icon-list{
+	display: inline-block;
+	background-image: url(../image/icon-list.png);
+	width: 11px;
+	height: 7px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.search-sc input{
+	font-size: 20px;
+	width: 440px;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	margin-right: 10px;
+
+}
+.search-skin input{
+	border: 0;
+	border-radius: 0 5px 5px 0;
+	
+}
+.search-sc button{
+	font-size: 20px;
+	width: 60px;
+	height: 50px;
+	line-height: 40px;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+.search-skin button{
+	background-color: white;
+	border: 2px solid red;
+	border-radius: 5px;
+}
+.search-skin button:hover{
+	background-color: red;
+	color: white;
+}
+.footer-sc{
+	height: 100px;
+	text-align: center;
+}
+.footer-skin a{
+	color: #bbb;
+}
+.footer-sc address{
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+.footer-sc address a{
+	border-right: 1px solid #bbb;
+	padding-right: 10px;
+	color: #aaa;
+}
+.footer-sc address a.no-border{border:0}
+/*隐藏内容*/
+.bg{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	//height: 700px;
+	top: 0px;
+	width: 100%;
+	z-index: 100;
+	display: none;
+}
+.hideContent{
+	width: 300px;
+	background-color: white;
+	margin: 0 auto;
+	padding: 10px 20px;
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -150px;
+	
+}
+.heading{
+	width: 100%;
+	height: 60px;
+	
+}
+span.logo{
+	float: left;
+	background-image: url(../image/1.jpg);
+	width: 170px;
+	height: 60px;
+}
+span.close{
+	float: right;
+	background-image: url(../image/close-1.jpg);
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	color: #AAAAAA;
+}
+span.close:hover{
+    background-image: url(../image/close-2.jpg);
+}
+.hideContent ul{
+	font-size: 0;
+}
+.hideContent ul li{
+	display:inline-block;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 100;
+}
+.hideContent ul li.active{
+	background-color: #FFB2B2;
+	border: 1px solid red;
+	border-bottom: 0;
+}
+.hideContent .login{
+	border: 1px solid red;
+	position: relative;
+	top: -2px;
+	text-align: center;
+	padding-bottom: 10px;
+	display: none;
+	font-size: 0;
+}
+.login input[type^="text"],.login button{
+	margin: 8px 0;
+	width: 96%;
+	height: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+	padding: 0 10px;
+}
+.login input[type^="password"]{
+	margin: 8px 0;
+	width: 96%;
+	height: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+	padding: 0 10px;
+}
+.login .code-content,.login .code-button{
+	width: 47%;
+	height: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+	vertical-align: middle;
+	border: 1px solid #ABADB3;
+	padding: 0 10px;
+	display: none;
+}
+.login .code-button{
+	margin-left: 2%;
+}
+.login .code-button:hover{
+	background-color: #ddd;
+}
+.login label{
+	display: block;
+	text-align: left;
+	font-size: 16px;
+}
+.login label input.checkbox{
+	margin-left: 2%;
+}
+.login span{
+	position: relative;
+	left: -110px;
+	background-color: rgba(0,255,0,0.5);
+	color: white;
+	padding: 2px;
+	margin-left: 6px;
+	margin-bottom: 100px;
+	font-size: 16px;
+}
+.login span:hover{
+	background-color: rgba(0,255,0,1);
+}
+
+.hideContent .register{
+	border: 1px solid red;
+	position: relative;
+	top: -2px;
+	text-align: center;
+	font-size: 0;
+	display: none;
+}
+.register input,.register button{
+	margin: 8px 0;
+	width: 96%;
+	height: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+	padding: 0 10px;
+}
+.register .code-content,.register .code-button{
+	width: 47%;
+	height: 50px;
+	box-sizing: border-box;
+	font-size: 16px;
+	vertical-align: middle;
+	border: 1px solid #ABADB3;
+}
+.register .code-button{
+	margin-left: 2%;
+}
+.register .code-button:hover{
+	background-color: #ddd;
+}
+.hideContent .button{
+	background-color: rgba(0,0,255,0.7);
+	border: 0;
+	font-size: 20px;
+	color: white;
+}
+.hideContent .button:hover{
+	background-color: rgba(0,0,255,0.8);
+}

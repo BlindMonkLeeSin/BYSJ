@@ -1,0 +1,54 @@
+/*地址块*/
+.addrBlock{
+	width: 310px;
+	border: 1px solid #dddddd;
+}
+.main .addrBlock:nth-of-type(3n){
+	margin-right: 0;
+}
+.addrBlock:hover{
+	border: 1px solid #0089dc;
+}
+.addrBlock:hover .addrBlock-buttons button{
+	color: #0089dc;
+}
+.addrBlock-buttons button{
+	background-color: white;
+	cursor: pointer;
+}
+.addrBlock-addrControl{
+	overflow: hidden;
+	white-space: nowrap;
+}
+/*提示*/
+.addrBlock-hint{
+	width: 320px;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+.addrBlock-hint button{
+	height: 25px;
+	border-radius: 2px;
+}
+.addrBlock-hint p{
+	margin-top: 25px;
+}
+.addrBlock-hint-OK{
+	background-color: #0089dc;
+	color: white;
+}
+.addrBlock-hint-close{
+	background-color: white;
+}
+/*添加地址*/
+.addAddr{
+	background-color: #fcfcfc;
+	line-height: 100px;
+	width: 310px;
+	border: 1px solid #dddddd;
+}
+.addAddr:hover{
+	color: #0089dc;
+}
+

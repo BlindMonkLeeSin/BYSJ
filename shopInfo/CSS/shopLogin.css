@@ -1,0 +1,51 @@
+body{
+	background-image: url(../../image/shopLoginBg.jpg);
+	background-size: 1369px 630px ;
+}
+.shopLogin{
+	margin-top: 150px;
+	width: 380px;
+	border: 1px solid #ebeef5;
+	background-color: white;
+}
+.shopLogin h1{
+	padding: 16px 18px 15px 16px;
+	border-bottom: 1px solid #ebeef5;
+}
+.shopLogin-content{
+	padding: 30px 40px;
+}
+.shopLogin-content-inputs{
+	border: 1px solid #dcdfe6;
+	border-radius: 5px;
+}
+.inputs-text{
+	width: 209px;
+	height: 38px;
+	border-right: 1px solid #dcdfe6;
+}
+.inputs-codeBt{
+	width: 89px;
+	height: 38px;
+	background-color: #8cc4fd;
+}
+.inputs-codeBt:hover{
+	background-color: #47a1fb;
+}
+.shopLogin-content-prompt{
+	color: red;
+	font-size: 10px;
+	height: 10px;
+}
+
+.shopLogin-content-code{
+	border: 1px solid #dcdfe6;
+	border-radius: 5px;
+}
+.shopLogin-content-submit{
+	background-color: #8cc4fd;
+	border-radius: 5px;
+}
+.shopLogin-content-submit:hover{
+	background-color: #0089DC;
+}

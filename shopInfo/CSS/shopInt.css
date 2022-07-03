@@ -1,0 +1,18 @@
+.form-item{
+	line-height: 40px;
+	margin-bottom: 25px;
+}
+.form-item input,.form-item select{
+	border-radius: 3px;
+	border: 1px solid #dbdee5;
+}
+.form-item .nb{
+	border: 0;
+}
+.form-map{
+	background-color: red;
+	height: 500px;
+}
+.form-item-submit{
+	background-color: #0089DC;
+}

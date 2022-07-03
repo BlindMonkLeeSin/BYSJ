@@ -1,0 +1,13 @@
+.notice-title{
+	width: 305px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #0089DC;
+}
+.notice-content{
+	width: 305px;
+}
+.main-content-submit{
+	background-color: #0089DC;
+	margin-left: -210px;
+}

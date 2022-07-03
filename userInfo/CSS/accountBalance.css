@@ -1,0 +1,12 @@
+.main-content{
+	height: 80px;
+	line-height: 80px;
+	background-color: #fafafa;
+}
+.main-content strong{
+	color: red;
+}
+.main-content button{
+	background-color: #51D862;
+	padding: 5px 10px;
+}

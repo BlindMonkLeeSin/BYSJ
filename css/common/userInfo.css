@@ -1,0 +1,32 @@
+body{
+	background-color: #fafafa;
+}
+ul.userInfoList>li{
+	font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+ul.userInfoList>li a{
+	color: black;
+}
+ul.userInfoList-item li{
+	font-size: 14px;
+	margin-top: 15px;
+}
+ul.userInfoList-item li a{
+	color: #666;
+}
+ul.userInfoList li a.active{
+	color: #0089dc;
+}
+.main{
+	width: 950px;
+	min-height: 300px;
+    padding: 20px 20px;
+    background-color: white;
+}
+.main h1{
+	font-weight: 700;
+	border-bottom: 2px solid #f4f4f4;
+	padding-bottom:10px;
+}

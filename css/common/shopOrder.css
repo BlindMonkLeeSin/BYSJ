@@ -1,0 +1,15 @@
+.detailsButton,.harvestButton,.arrivalButton{
+	padding:2px 5px;
+	border: 1px solid #eee;
+}
+.detailsButton:hover{
+	background-color: #0089DC;
+	color: white;
+}
+.harvestButton:hover,.arrivalButton:hover{
+	background-color: red;
+	color: white;
+}
+.order-title{
+	background-color: #eeeeee;
+}

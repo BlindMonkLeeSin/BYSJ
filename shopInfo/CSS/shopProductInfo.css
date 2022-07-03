@@ -1,0 +1,76 @@
+/*主体头部份*/
+.main-header-left{
+	line-height: 40px;
+}
+.classIf{
+	border: 1px solid #abadb3;
+}
+.classIf .listIcon1{
+	margin-bottom: 4px;
+}
+.classIf-box{
+	width: 157px;
+}
+.classIf-content{
+	background-color: white;
+	border: 1px solid #abadb3;
+	border-top: 0;
+	top: 39px;;
+	left: -1px;
+	z-index: 1;
+}
+.classIf-content li{
+	padding: 0 15px;
+}
+.classIf-content li:hover{
+	background-color: rgba(0,255,0,0.5);
+	color: white;
+}
+.classIf-content li:hover span{
+	display: block;
+}
+.main-header-right button{
+	border: 1px solid #abadb3;
+	border-left: 0;
+	background-color: #0089DC;
+}
+/*主体内容部分*/
+.productInfo{
+	width: 32%;
+	margin-left: 1%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.1);
+}
+.productInfo:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+.imgSc{
+	top: 0;
+	left: 0;
+    opacity: 0;
+}
+.productName,.productMoney{
+	width: 180px;
+}
+.selectClass{
+	width: 100px;
+}
+.control-edit{
+	background-color: #0089DC;
+}
+.control-delete{
+	background-color: red;
+}
+
+
+/*修改弹窗*/
+.editProduct{
+	top: 40%;
+	left: 40%;
+	background-color: white;
+	border: 1px solid red;
+	
+}
+.editContent-img{
+	line-height: 40px;
+}

@@ -1,0 +1,47 @@
+body{background-color: #F8F8F8;}
+.main-left{
+	background-color: bisque;
+	width: 15%;
+	min-height: 400px;
+}
+.main-left li{
+	padding: 5px;
+	color: #666;
+}
+.main-left li.active{
+	background-color: #1E89E0;
+	color: white;
+}
+.main-right{
+	background-color: white;
+	width: 83%;
+	min-height: 400px;
+}
+.main-right h1{
+	border-bottom: 1px solid #ccc;
+}
+.main-right li{
+	height: 40px;
+	line-height: 40px;
+}
+.tableHead{
+	background-color: #0089DC;
+	color: white;
+}
+.tableTbody{
+	background-color: #F56C6C;
+}
+.main-right li button{
+	color: #fff;
+	background-color: #ccc;
+}
+.add:hover{
+	background-color: #0e0;
+}
+.delUser:hover,.delShop:hover{
+	background-color: #f00;
+}
+.ss{
+	overflow: hidden;
+	white-space: nowrap;
+}

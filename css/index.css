@@ -1,0 +1,86 @@
+/*主要内容*/
+.main{
+	background-color: black;
+}
+.main h1{
+	color: white;
+}
+.main-adress{
+	background-color: white;
+	line-height: 50px;
+}
+.main-adress-content{
+	width: 69px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.main-button{
+	background-color: rgba(255,0,0,0.7);
+}
+.main-button:hover{
+	background-color: red;
+}
+/*城市列表*/
+.cityList{
+	background-color: white;
+	top: 70px;
+	height: 300px;
+	overflow: scroll;
+	left: 0;
+	z-index: 1;
+}
+.cityNav{
+	background-color: #ccc;
+	/*top: 10px;*/
+}
+.cityNav li{
+	float: left;
+	width: 4.54%;
+	height: 30px;
+	line-height: 30px;
+}
+.cityNav li a{
+	color: white;
+}
+.main-adress .horn{
+	width: 15px;
+	height: 15px;
+	transform:rotate(-45deg);
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background-color: white;
+	top: 63px;
+	left: 35px;
+}
+.cityList-item{
+	border-bottom: 1px solid #eee;
+}
+.cityList-item li{
+	float: left;
+	width: 12%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left: 0.5%;
+	font-size: 12px;
+	font-weight: 700;
+}
+.cityList-item li:hover{
+	color: #0089DC;
+}
+/*地图相关*/
+.main-adress-map{
+	width: 800px;
+	height: 350px;
+	background-color: red;
+	top: 55px;
+	left: -150px;
+}
+.main-prompt{
+	width: 150px;
+	height: auto;
+}
+.main-adress .closeIcon{
+	top: 60px;
+	left: 630px;
+}
+

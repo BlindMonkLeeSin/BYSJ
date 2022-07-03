@@ -1,0 +1,17 @@
+body{
+	background-image: url(../../image/true.jpg);
+	background-size: 1365px;
+	background-position-y: 67px;
+	background-repeat: no-repeat;
+}
+form{
+	margin-top: 150px;
+	background-color: white;
+}
+form h1{
+	border-bottom: 1px solid #eee;
+}
+form input,form button{
+	width: 250px;
+}
+

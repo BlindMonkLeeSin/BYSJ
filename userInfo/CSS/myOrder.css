@@ -1,0 +1,41 @@
+.order-title th{
+	background-color: #eeeeee;
+	text-align: center;
+}
+.order-content figure,.order-content img,.order-content-img{
+	width: 70px;
+	height: 70px;
+}
+.order-content td{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.myorder-content-time{
+	width: 70px;
+	border-right: 1px solid #eee;
+}
+.circular{
+	width: 8px;
+	height: 8px;
+	border: 2px solid #ccc;
+	border-radius: 50%;
+	right: 0;
+	top: 50%;
+	margin: -6px;
+	background-color: white;
+	z-index: 1;
+}
+.myorder-content-details{
+	border-bottom: 1px dashed #eee;
+}
+
+.order-content a:hover{
+	cursor: pointer;
+	color: #0089DC;
+}
+.detailsButton{
+	border: 1px solid #eee;
+}
+.detailsButton:hover{
+	border: 1px solid #0089DC;
+}

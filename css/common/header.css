@@ -1,0 +1,94 @@
+.headerWhite{
+	background-color: white;
+	line-height: 67px;
+}
+.headerBlue{
+	background-color: #1e89e0;
+	line-height: 67px;
+}
+.headerBlack{
+	background-color: black;
+	line-height: 67px;
+}
+.headerBlue li a,.headerBlack li a{
+	color: #fff;
+}
+.headerBlue li a:hover,.headerBlack li a:hover{
+	color: #eee;
+}
+.strip{
+	height: 67px;
+}
+.strip-addr1,.strip-addr2,.strip-search{
+	line-height: 40px;
+	background-color: white;
+}
+.strip-addr1,.strip-addr2,.strip-addr2-item1{
+	border-right: 1px solid #C5C5C5;
+}
+.strip-addr1-info{
+	max-width:160px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.strip-addr2-item1-info{
+	max-width:50px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.strip-addr2-item2{
+	width: 120px;
+}
+.strip-search-text{
+	width: 140px;
+}
+.headerSearch{
+	background-color: white;
+	line-height: 40px;
+}
+ul.navList,ul.loginList{
+	height: 67px;
+}
+ul.navList>li{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0 10px;
+}
+.loginList>li{
+	display: inline-block;
+	font-size: 20px;
+	padding-left: 20px;
+}
+.loginList li.none{
+	display: none;
+}
+#userName:hover .loginListDetalist,#shopName:hover .loginListDetalist{
+	display: block;
+}
+.loginListDetalist{
+	line-height: 20px;
+	width: 100px;	
+}
+.headerWhite .loginListDetalist{
+	background-color: white;
+}
+.headerWhite .loginListDetalist li:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.headerBlue .loginListDetalist{
+	background-color: black;
+}
+.headerBlue .loginListDetalist li:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.headerBlack .loginListDetalist{
+	background-color: white;
+	z-index: 2;
+}
+.headerBlack .loginListDetalist li:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.headerBlack .loginListDetalist a{
+	color: black;
+}
+

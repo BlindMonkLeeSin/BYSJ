@@ -1,0 +1,78 @@
+/*状态栏*/
+.statusBar{
+	background-color: #f8f8f8;
+}
+.statusBar li{
+	float: left;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	color: #999999;
+   border-bottom: 1px solid #ededed;
+}
+.statusBar .circular{
+	background-color: #dddddd;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	bottom: -5px;
+	left: 50%;
+	margin-left: -5px;
+}
+.statusBar .active{
+	color: #0089dc;
+}
+.statusBar .active .circular{
+	background-color: #0089dc;
+}
+/*提示栏*/
+.prompt{
+	border: 1px solid #f8e5bb;
+	background-color: #fefdee;
+}
+/*订单详情*/
+.orderDetails{
+	border: 1px solid #eeeeee;
+}
+/*头部详情*/
+.orderDetails-hdInfo{
+	background-color: #f8f8f6;
+	border-bottom: 1px solid #eeeeee;	
+}
+.orderDetails-hdInfo img{
+    width: 45px;
+    height: 45px;
+}
+.collection{
+	cursor: pointer;
+}
+/*左边详情*/
+.orderDetails-leftInfo{
+	background-color: #f8f8f6;
+	border-right: 1px solid #eeeeee;		
+}
+.orderDetails-leftInfo tr{
+	border-bottom: 1px solid #eeeeee;	
+}
+.orderDetails-leftInfo tfoot tr{
+	border: 0;	
+}
+.orderDetails-leftInfo .num{
+	font-size: 26px;
+	color: red;
+}
+/*右边详情*/
+.orderDetails-rightInfo{
+	width: 387px;
+	background-color: white;
+}
+.rightInfo-userInfo{
+	border-bottom: 1px dashed #eeeeee;
+}
+.rightInfo-userInfo span,.rightInfo-comment span{
+	width: 70px;
+	height: 40px;
+}
+.rightInfo-userInfo .w317,.rightInfo-comment .w317{
+	width: 317px;
+}

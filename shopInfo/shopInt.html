@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<link rel="stylesheet" href="../css/bass.css" />
+        <link rel="stylesheet" href="../css/common/header.css" />
+		<link rel="stylesheet" href="../css/common/icon.css" />
+		<link rel="stylesheet" href="../css/common/footer.css" />
+		<link rel="stylesheet" href="css/shopInt.css" />
+		<script type="text/javascript" src="../js/jQuery/jquery-3.2.1.js" ></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=icGhZG9f0PkrWOlkverHyrIhwpvz4uFu"></script>
+		<script type="text/javascript" src="../js/common/address.js" ></script>
+		<script type="text/javascript" src="JS/shopInt.js"></script>
+	    <header class="headerBlue">
+		  <div class="container bc clearfix ">
+			<span class="logoBlue fl"></span>
+            <h1 class="fcf f20 w100 bc">商户中心</h1>
+		  </div>
+		</header>
+       <form class="form w1000 bc mt50 f14 fc6" action="shopInt.php" enctype="multipart/form-data" method="post" accept-charset="utf-8"  autocomplete="on">
+       	    <div class="form-item">
+       	        <label class="dib w100">门店名称</label>
+       	        <input class="w400 h40 bb pl15" type="text" name="storeName">
+       	    </div>
+       	    <div class="form-item">
+       	        <label class="dib w100">联系人电话</label>
+       	        <input class="w200 h40 bb pl15" type="tel" maxlength="11" id="userName" name="userName" disabled="disabled">
+       	    </div>
+       	    <div class="form-item">
+       	        <label class="dib w100">外卖电话</label>
+       	        <input class="w200 h40 bb pl15" type="tel" maxlength="11" name="shopTel">
+       	    </div>
+       	    <div class="form-item">
+       	        <label class="dib w100">门店分类</label>
+       	        <select class="w200 h40 bb pl10" name="shopClass">
+       	        	<option>简餐</option>
+       	        	<option>米粉面馆</option>
+       	        	<option>盖浇饭</option>
+       	        	<option>特色菜系</option>
+       	        	<option>异国料理</option>
+       	        	<option>小吃夜宵</option>
+       	        	<option>甜品饮品</option>
+       	        	<option>果蔬生鲜</option>
+       	        	<option>商店超市</option>
+       	        	<option>鲜花绿植</option>
+       	        	<option>医药健康</option>
+       	        	<option>早餐</option>
+       	        	<option>午餐</option>
+       	        	<option>下午茶</option>
+       	        	<option>晚餐</option>
+       	        	<option>夜宵</option>
+       	        </select>
+       	    </div>
+       	    <div class="form-item">
+       	        <label class="dib w100">营业时间</label>
+       	        <input class="w200 h40 bb pl10" type="time" name="openTime">
+       	        <input class="w200 h40 bb pl10" type="time" name="startTime">
+       	        <span class="dib">上下键调时间或直接输入</span> 
+       	    </div>
+       	    <div class="form-item">
+       	        <label class="dib w100">城市</label>
+       	        <select class="w200 h40 bb pl10" id="cmbProvince">
+       	        </select>
+       	        <select class="w200 h40 bb pl10" id="cmbCity">
+       	        </select>
+       	        <select class="w200 h40 bb pl10" id="cmbArea">
+       	        </select>
+       	    </div>
+       	    <div class="form-item">
+       	        <label class="dib w100">详细地址</label>
+       	        <input class="w400 h40 bb pl15" type="text" id="addrDetails" name="addrDetails">
+       	        <div class="form-item-prompt none" id="form-item-prompt"></div>
+       	        <div class="form-map w800 mt20 none" id="form-map"></div>
+       	        <input type="hidden" id="lng" name="lng">
+       	        <input type="hidden" id="lat" name="lat">
+       	    </div>
+       	    <div class="form-item">
+       	        <label class="dib w100">上传logo</label>
+       	        <input class="w400 h40 bb nb" type="file" name="myfile">
+       	    </div>
+       	    <div class="form-item tc">
+       	        <input class="form-item-submit w200 h40 bb nb fcf" type="submit" value="商家注册">
+       	    </div>
+       </form>
+       <footer class="footer h150 tc" >
+ 	        <address class="addr pt20 pb10">
+ 		        <span>name</span>
+ 		        <span>40214157</span>
+ 		        <span>班级14101</span>
+ 		        <span>phone</span>
+ 	        </address>
+ 	        <span class="fca">copyright&copy2017-2018</span>
+       </footer>
+    </body>
+</html>

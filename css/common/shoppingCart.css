@@ -1,0 +1,79 @@
+.shoppingCart{
+	width: 320px;
+	bottom: 0px;
+	right: 0px;
+	z-index: 10;
+	background-color: white;
+	box-shadow: 0 -2px #0089DC;
+}
+.shoppingCart-mian-header{
+    background-color: #fafafa;
+	padding: 10px 20px;
+}
+.header-empty{
+	cursor: pointer;
+}
+.shoppingCart-main-list{
+	padding: 0 20px;
+}
+.shoppingCart-main-list li{
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+.list-productTitle{
+	width: 150px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.list-productNumber{
+	border: 1px solid #abadb3;
+}
+.list-productNumber input{
+	border-left: 1px solid #abadb3;
+	border-right: 1px solid #abadb3;
+}
+.list-productNumber button{
+	cursor: pointer;
+}
+.list-productMoney{
+	color: #f17530;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 58px;
+}
+.shoppingCart-control-left{
+	cursor: pointer;
+	background-color: black;
+	height: 40px;
+	line-height: 40px;
+	width: 60%;
+}
+.redNumber{
+	min-width: 15px;
+	height: 15px;
+	line-height: 15px;
+	border-radius: 50%;
+	top: -5px;
+	right: -5px;
+	background-color: red;
+	color: white;
+}
+.sumMoney{
+	color: white;
+}
+.dispatchingMoney{
+    border-left: 1px solid #999;
+    height: 12px;
+    line-height: 12px;
+}
+.shoppingCart-control-right{
+	cursor: pointer;
+	width: 40%;
+	background-color: #e4e4e4;
+	height: 40px;
+	line-height: 40px;
+}
+.shoppingCart-control .active{
+	background-color: #51d862;
+	color: white;
+}

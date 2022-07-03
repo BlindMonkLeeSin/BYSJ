@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>管理员登录界面</title>
+		<link rel="stylesheet" href="../css/bass.css" />
+		<link rel="stylesheet" href="../css/common/header.css" />
+		<link rel="stylesheet" href="../css/common/icon.css" />
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<header class="headerBlue">
+		  <div class="container bc clearfix ">
+			<span class="logoBlue fl"></span>
+            <h1 class="fcf f20 w100 bc">管理员登录</h1>
+		  </div>
+		</header>
+		<form class="w300 bc tc" action="admin.php" method="post" accept-charset="utf-8" >
+			<h1 class="pt15 pb15 mb15">管理员登录</h1>
+			<input class="mb15 db h40 bb bc pl15" type="text" name="adminUser">
+			<input class="mb15 db h40 bb bc pl15" type="password" name="adminPwd">
+			<input type="hidden" name="type" value="login">
+			<button class="mb15  h40" type="submit">登录</button>
+		</from>
+	</body>
+</html>
